@@ -139,7 +139,7 @@ def main():
     								
 							
 					if st.button("GroundTruth"):
-									image2=PIL.Image.open("groundtruth.png")
+									image2=PIL.Image.open("Groundtruth.png")
 									st.image(image2)
 									st.text("Groundtruth of Indian Pines")
 					
